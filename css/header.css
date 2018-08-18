@@ -15,8 +15,10 @@ header a {
 }
 
 header .header_top {
-  width: 100%;
+  width: 925px;
   display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header p {
@@ -57,18 +59,23 @@ header .map_menu ul li a:hover {
 }
 
 header .menu {
-  width: 100%;
+  width: 925px;
   height: auto;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header nav ul {
-  display: inline-block;
+  display: block;
   text-align: center;
   list-style: none;
   padding-left: 0px;
+  padding-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header nav ul li {
