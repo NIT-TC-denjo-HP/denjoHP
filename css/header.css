@@ -52,6 +52,10 @@ header .map_menu ul li a::before {
   content: "\f0da"
 }
 
+header .map_menu ul li a:hover {
+  color: skyblue;
+}
+
 header .menu {
   width: 100%;
   height: auto;
