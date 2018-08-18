@@ -1,3 +1,40 @@
+@media screen and (min-width: 950px) {
+  header .header_top {
+    width: 925px;
+  }
+
+  header .menu {
+    width: 925px;
+  }
+
+  header nav ul li {
+    width: 120px;
+  }
+
+  header nav ul li a{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  header .header_top {
+    width: 700px;
+  }
+
+  header .menu {
+    width: 700px;
+  }
+
+  header nav ul li {
+    width: 87px;
+    font-size: 14px;
+  }
+
+  header nav ul li a{
+    padding: 0px;
+  }
+}
+
 header {
   width: 100%;
   height: auto;
@@ -15,7 +52,6 @@ header a {
 }
 
 header .header_top {
-  width: 925px;
   display: table;
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +95,6 @@ header .map_menu ul li a:hover {
 }
 
 header .menu {
-  width: 925px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -79,8 +114,8 @@ header nav ul {
 }
 
 header nav ul li {
-  width: 120px;
   text-align: center;
+  line-height: 20px;
   float: left;
   padding: 5px;
   margin: 1px;
@@ -89,7 +124,6 @@ header nav ul li {
 
 header nav ul li a{
   position: relative;
-  padding: 10px;
 }
 
 /* pull left right */
