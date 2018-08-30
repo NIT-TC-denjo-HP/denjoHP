@@ -23,6 +23,10 @@
   header nav .upper_triangle {
     left: -35px;
   }
+
+  header nav .sub_menu li {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -50,6 +54,10 @@
   header nav .upper_triangle {
     left: -50px;
   }
+
+  header nav .sub_menu li {
+    font-size: 12px;
+  }
 }
 
 header {
@@ -59,6 +67,7 @@ header {
   background-color: rgba(0,0,0,0.5);
   top: 0px;
   left: 0px;
+  padding-bottom: 0;
   z-index: 5;
   position: absolute;
 }
@@ -72,6 +81,7 @@ header .header_top {
   display: table;
   margin-left: auto;
   margin-right: auto;
+  height: 64px;
 }
 
 header p.logo {
@@ -119,6 +129,8 @@ header .menu {
 }
 
 header nav .main_menu {
+  position: relative;
+  bottom: 0;
   display: block;
   text-align: center;
   list-style: none;
@@ -200,7 +212,7 @@ header nav .upper_triangle {
 
 header nav .sub_menu {
   position: absolute;
-  top: -10px;
+  top: -5px;
   left: -5px;
   width: 200px;
   list-style: none;
@@ -209,9 +221,29 @@ header nav .sub_menu {
   margin-left: 0px;
 }
 
+@media screen and (min-width: 950px) {
+  header nav .main_menu_content:last-child .sub_menu {
+    left: -75px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  header nav .main_menu_content:last-child .sub_menu {
+    left: -108px;
+  }
+}
+
 header nav .sub_menu li {
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background: rgba(50,50,50,0.5);
+}
+
+header nav .sub_menu li a {
+  font-family: serif;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5px;
 }
 
 header nav .sub_menu li:hover {
