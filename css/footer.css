@@ -1,8 +1,67 @@
+@media screen and (min-width: 950px) {
+  .footer_body {
+    width: 925px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .footer_body {
+    width: 700px;
+  }
+}
+
 footer {
+  position: relative;
   width: 100%;
+  height: auto;
   background: gray;
   margin: 0px;
-  bottom: 0;
   left: 0;
-  position: relative;
+}
+
+footer a {
+  font-family: serif;
+  text-decoration: none;
+  color: black;
+}
+
+.footer_body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_menu {
+  display: table;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_menu div.main_link {
+  display: table-cell;
+  width: 180px;
+}
+
+.footer_menu div.other_link {
+  display: table-cell;
+}
+
+.footer_menu ul.main_link_contents {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer_menu ul.other_link_contents {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer_menu a::before {
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "\f0da"
+}
+
+.footer_menu a:hover {
+  color: orange;
 }
