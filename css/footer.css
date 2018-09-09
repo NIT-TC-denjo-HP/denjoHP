@@ -1,11 +1,11 @@
 @media screen and (min-width: 950px) {
-  .footer_body {
+  .footer-body {
     width: 925px;
   }
 }
 
 @media screen and (max-width: 950px) {
-  .footer_body {
+  .footer-body {
     width: 700px;
   }
 }
@@ -25,43 +25,43 @@ footer a {
   color: black;
 }
 
-.footer_body {
+.footer-body {
   margin-left: auto;
   margin-right: auto;
 }
 
-.footer_menu {
+.footer-menu {
   display: table;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.footer_menu div.main_link {
+.footer-menu div.main-link {
   display: table-cell;
   width: 180px;
 }
 
-.footer_menu div.other_link {
+.footer-menu div.other-link {
   display: table-cell;
 }
 
-.footer_menu ul.main_link_contents {
+.footer-menu ul.main-link-contents {
   list-style: none;
   padding-left: 0;
 }
 
-.footer_menu ul.other_link_contents {
+.footer-menu ul.other-link-contents {
   list-style: none;
   padding-left: 0;
 }
 
-.footer_menu a::before {
+.footer-menu a::before {
   font-family: "Font Awesome 5 free";
   font-weight: 900;
   content: "\f0da"
 }
 
-.footer_menu a:hover {
+.footer-menu a:hover {
   color: orange;
 }
