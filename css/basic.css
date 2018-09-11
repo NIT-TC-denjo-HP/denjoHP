@@ -78,20 +78,23 @@ a {
 
 .side-menu-column {
   display: table-cell;
-  width: 25%;
+  width: 175px;
 }
 
 .side-menu {
   position: relative;
+  width: 175px;
   list-style: none;
   background: white;
   padding-left: 0px;
   margin-left: 10px;
-  top: 35px;
+  top: 40px;
 }
 
 .side-menu li {
-  height: 30px;
+  width: 170px;
+  height: auto;
+  min-height: 30px;
   padding-top: 5px;
   padding-left: 5px;
   border-bottom: 1px solid lightgray;
@@ -99,10 +102,12 @@ a {
 
 .side-menu li a {
   display: block;
-  width: 100%;
-  font-size: 20px;
+  width: 150px;
+  font-size: 16px;
   color: black;
   padding-left: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .side-menu li a::before {
